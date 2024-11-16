@@ -3,112 +3,135 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="fuckccs/reset.css">
+	<link rel="stylesheet" type="text/css" href="fuckccs/style.css">
 	<title>Визитка к лучшей жизни!</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 </head>
 <body>
-	<header class="header">    
-      <div class="header-top"> 
-       <span class="logo">sm3shnila</span>
+	<div class="header-top"> 
+       <a href="/" class="link logo">sm3shnila</a>
         <nav class="navigation">
             <ul class="menu">
               <li class="menu-element">
-                 <a class="menu-element__link" href="">HOME</a>
+                 <a class="link menu-element__link active home" href="#home">
+                 	<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                  </svg>
+                 </a>
               </li>
                 <li class="menu-element">
-                <a class="menu-element__link" href="#">ABOUT</a>
+                <a class="link menu-element__link" href="#about-me">ОБО&nbsp;МНЕ</a>
               </li>
               	<li class="menu-element">
-                <a class="menu-element__link" href="#">ACHIEVEMENTS</a>
+                <a class="link menu-element__link" href="#achievements">ДОСТИЖЕНИЯ</a>
               </li>
                 <li class="menu-element">
-            	<a class="menu-element__link" href="#">WORK</a>
+            	<a class="link menu-element__link" href="#work">РАБОТА</a>
               </li>         
                 <li class="menu-element">
-            	<a class="menu-element__link" href="#">INTERESTS</a>
+            	<a class="link menu-element__link" href="#interests">ИНТЕРЕСЫ</a>
               </li>
                 <li class="menu-element">
-            	<a class="menu-element__link" href="#">CONTACT ME</a>
+            	<a class="link menu-element__link" href="#contact-me">СВЯЗЬ</a>
               </li>
  
             </ul>
         </nav>
-        <div class="switcher">RU/ENG</div>
-
+       <div class="switcher-wrapper">
+        <input type="checkbox" id="lang" checked>
+         <label class="switcher" for="lang">
+        	<span>RU</span>
+        	<span>ENG</span>
+         </label>
+       </div>
       </div>
-
+		<header class="header" id="home">   
       <div class="header-center">
       	<h1 class="name">Чернов&nbsp;Станислав</h1>
-      	<p class="description">Привет, я создал этот сайт чтобы вы могли получше познакомится со мной!</p>
       </div>
+		</header>
+		<section class="about-me" id="about-me">
+ 		<div class="left">
+  	<img class=mypicture src="../images/iam.jpg" alt="Это Я">
+  	</div>
 
-	</header>
-<section class="about-me">
-  <div class="left">
-  	<img src="" alt="Это Я">
-  </div>
+		<div class="right">
+  		<h2 class="about-me__title">Чернов Станислав Николаевич</h2>
+  		<p class="about-me__description">Я в самом начале своего пути, ведь это первый сайт который я написал.Я готов к трудностям и не страшусь их. Сейчас я Jun QA, но это не на долго</p>
+  		<p class="about-me__description"> Сейчас я заканчиваю курс QA, ищу работу и улучшаюсь в своем новом деле.В будущем хочу создавать что нибудь. Ведь лишь создавая что-то можно оставить след после себя.</p>
+  		<p class="about-me__description">В свободное время я учусь новым интересностям, провожу время с любимой женщиной, которая в будущем я уверен станет мне женой. Иногда я сочиняю стихи, и читаю книги. В будущем хочу освоить гитару. Кстати вот один из моих стихов:
+			на грани открытия себя,
+			ты разделяешься словно на два,
+			ты не знаешь что истина, что ложь вокруг тебя 
+			и лишь время расставляет все на свои места.
+			истина появляется, но лишь время скажет когда,
+			она откроется словно врата,
+			и куда, зависит только от тебя.</p>
+  		<p class="about-me__description">Еще я постоянно думаю, не бывает такого чтобы я о чем-то не думал.</p>
 
-	<div class="right">
-  	<h2 class="about-me__title">Чернов Станислав Николаевич</h2>
-  	<p class="about-me__description">Я в самом начале своего пути, ведь это первый сайт который я написал.Я готов к трудностям и не страшусь их. Сейчас я Jun QA, но это не на долго</p>
-  	<p class="about-me__description"> Сейчас я заканчиваю курс QA, ищу работу и улучшаюсь в своем новом деле.В будущем хочу создавать что нибудь. Ведь лишь создавая что-то можго оставить след после себя.</p>
-  	<p class="about-me__description">В свободное время я учусь новым интересностям, провожу время с любимой женщиной, которая в будущем я уверен станет мне женой. Иногда я сочиняю стихи, и читаю книги. В будущем хочу освоить гитару. Кстати вот один из моих стихов:
-	на грани открытия себя,
-	ты разделяешься словно на два,
-	ты не знаешь что истина, что ложь вокруг тебя 
-	и лишь время расставляет все на свои места.
-	истина появляется, но лишь время скажет когда,
-	она откроется словно врата,
-	и куда, зависит только от тебя.</p>
-  	<p class="about-me__description">Еще я постоянно думаю, не бывает такого чтобы я о чем-то не думал.</p>
+  		<ul class="about-me__extra">
+  			<li class="about-me__extra-element">
+  				<span class="bold">День Рождения:</span> 
+  				<span>08.07.2004 (20 лет)</span>
+  			</li>
+  			<li class="about-me__extra-element"> 
+  				<span class="bold">Где живу:</span>
+  				<span>Москва, Россия</span>
+  			</li>
+  			<li class="about-me__extra-element"> 
+  				<span class="bold">Образование:</span>
+  				<span>Северо-Кавказский Социальный Институт (СКСИ), Специальность: программист (ФИСТ)</span>
+  			</li>
+      	   </li>
+  			<li class="about-me__extra-element"> 
+  				<span class="bold">Курсы:</span>
+  				<span>QA тестировщик (QA studio)</span>
+  			</li>
+  		</ul>
+		</div>
+		</section>
+		<section class="achievements" id="achievements">
+		<h2 class="second-title">Достижения</h2>
 
-  	<ul class="about-me__extra">
-  		<li class="about-me__extra-element">
-  			<span class="bold">День Рождения:</span> 
-  			<span>08.07.2004 (20 лет)</span>
-  		</li>
-  		<li class="about-me__extra-element"> 
-  			<span class="bold">Где живу:</span>
-  			<span>Москва, Россия</span>
-  		</li>
-  		<li class="about-me__extra-element"> 
-  			<span class="bold">Образование:</span>
-  			<span>Северо-Кавказский Социальный Институт (СКСИ), Специальность: программист (ФИСТ)</span>
-  		</li>
-         </li>
-  		<li class="about-me__extra-element"> 
-  			<span class="bold">Курсы:</span>
-  			<span>QA тестировщик (QA studio)</span>
-  		</li>
-  	</ul>
-	</div>
-</section>
-<section class="achievements">
-	<h2 class="second-title">Достижения</h2>
-
-	<ul class="achievements-list">
+		<ul class="achievements-list">
 		<li class="achievements-list__element">Достижение 1</li>
-	</ul>
-</section>
-    
+		</ul>
+		</section>
 
+		<section class="work" id="work">
+			<h2 class="second-title">Работа</h2>
 
-<footer>    
-	<ul class="socials">
-	<li class="social-ellement">
-		<a href="" class="social-element__link">TG</a>
-	</li>
-	<li class="social-ellement">
-		<a href="" class="social-element__link">INST</a>
-	</li>
-	</ul>
+			<div class="work-wrapper">
+			<div class="work-element left">
+			<div class="work-element__content"></div>
+			</div>
+			<div class="work-element right">
+			<div class="work-element__content"></div>
+			</div>
+			</div>
+		</section>
+		<section class=interests id="interests">
+		 <h2 class="second-title">Интересы</h2>
+		</section>
+		<section class="contact-me" id="contact-me">
+			<h2 class="second-title">Обратная связь</h2>
+		</section>
 
-
-	<p class="footer-about">
-	&copy;&nbsp;Чернов&nbsp;Станислав&nbsp;2004&nbsp;-&nbsp;2025
-	</p>
-</footer>
-
-
-
+		<footer>    
+			<ul class="socials">
+				<li class="social-ellement">
+					<a href="" class="link social-element__link">TG</a>
+				</li>
+				<li class="social-ellement">
+					<a href="" class="link social-element__link">INST</a>
+				</li>
+			</ul>
+			<p class="footer-about">
+				&copy;&nbsp;Чернов&nbsp;Станислав&nbsp;2004&nbsp;-&nbsp;2025
+			</p>
+	</footer>
 </body>
 </html>

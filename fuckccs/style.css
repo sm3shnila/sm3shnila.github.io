@@ -1,0 +1,141 @@
+.header{
+	background: url(../images/kto6.png);
+	position: relative;
+	text-align: center;
+	bottom: 65px;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: black;
+}
+.header-top{
+	position: sticky;
+	top: 0;
+	display:flex;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 65px;
+	color:whitesmoke;
+	z-index:3 ;
+	background: #000;
+}
+.switcher{
+	position: relative;
+    display: flex;
+    align-items: center;
+    background: dimgray;
+    padding: 4px 10px 4px;
+    border-radius: 17px;
+    width: 95px;
+    
+
+    opacity: .7;
+    transition: opacity .25s ease;
+
+	cursor: pointer;
+}
+.switcher:hover{
+	opacity: 1;
+}
+.switcher:before{
+	content: "";
+    width: 42px;
+    height: 25px;
+    background: #fff;
+    position: absolute;
+    z-index: 1;
+    border-radius: 17px;
+    left: 45px;
+
+    transition: left .25s ease-in-out;
+}
+.switcher span{
+	flex: 1 1 50%;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    color: dimgray;
+
+    transition: color .25s ease-in-out;
+}
+.switcher span:first-child{
+	color: #000;
+}
+#lang:checked + .switcher:before{
+	left: 7px;
+}
+#lang:checked + .switcher span:first-child{
+	color: dimgray;
+}
+
+#lang:checked + .switcher span:last-child{
+	color: #000;
+}
+#lang{
+	display: none;
+}
+.menu{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+.name{
+	color: whitesmoke;
+	font-size: 28px;
+	margin-top: 15px;
+}
+.mypicture{
+	clip-path:circle(49% at 50% 50%);
+}
+.left{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
+}
+body{
+	font-family: "Mulish";
+}
+.logo{
+	font-size: 23px;
+	color: #696969;
+}
+a.link{
+	text-decoration: none;
+	transition: opacity .25s ease;
+	color: #262626;
+}
+a.link:hover{
+	opacity: .7;
+}
+.menu-element{
+	margin-right: 35px;
+}
+.menu-element:last-child {
+	margin-right: 0;
+}
+.menu-element a.link.active, .menu-element a.link:hover{
+	color:whitesmoke; 
+}
+.menu-element__link.home svg {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 24px;
+ height: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
