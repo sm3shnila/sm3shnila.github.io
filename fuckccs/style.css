@@ -25,10 +25,10 @@
     display: flex;
     align-items: center;
     background: dimgray;
-    padding: 4px 10px 4px;
+    padding: 0 10px;
     border-radius: 17px;
     width: 95px;
-    
+    height: 35px;
 
     opacity: .7;
     transition: opacity .25s ease;
@@ -83,17 +83,20 @@
 .name{
 	color: whitesmoke;
 	font-size: 28px;
-	margin-top: 15px;
+	position: relative;
+    top: 65px;
 }
 .mypicture{
 	clip-path:circle(49% at 50% 50%);
 }
-.left{
+.center{
 	display: flex;
     justify-content: center;
     align-items: center;
     background-color: black;
     clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
+    position: relative;
+    bottom: 65px;
 }
 body{
 	font-family: "Mulish";
@@ -126,16 +129,45 @@ a.link:hover{
  width: 24px;
  height: 24px;
 }
+.about-me__description{
+	margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #494949;
+}
+.about-me__title{
+	margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 800;
+}
+.about-me .left{
+	flex: 1 1 40%;
+}
+.about-me .right{
+	flex: 1 1 60%;
+}
+.about-me{
+	display: flex;
+}
+.just-picture{
 
-
-
-
-
-
-
-
-
-
-
-
-
+}
+.bold{
+	font-weight: 800;
+	color: black;
+}
+.about-me__extra-element span:last-child{
+	color: #494949;
+}
+.about-me__extra-element{
+	font-size: 17px;
+	margin-bottom: 8px;
+}
+p.about-me__description.stih{
+	font-weight: 800;
+    color: black;
+    position: relative;
+    display: flex;
+    justify-content: center;s
+    font-family: cursive;
+}
