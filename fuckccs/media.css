@@ -1,0 +1,110 @@
+@media screen and (max-width: 1400px){
+    .about-me .right{
+        padding: 0 200px 0 0;
+    }
+    .about-me__description{
+        margin-bottom: 14px;
+        font-size: 16px;
+    }
+    .about-me__title{
+        font-size: 27px;
+    }
+    .about-me__extra-element {
+        font-size: 16px;
+    }
+    .name{
+        top: 90px;
+    }
+    .center{
+        bottom: 100px;
+    }
+}
+@media screen and (max-width: 1205px) {
+    .interest-text{
+        font-size: 15px;
+    }
+    .about-me .right{
+        padding: 0 170px 0 0;
+    }
+    .about-me__description{
+        margin-bottom: 12px;
+        font-size: 16px;
+    }
+    .about-me__title{
+        font-size: 25px;
+    }
+    .about-me__extra-element {
+        font-size: 14px;
+}
+    .name{
+        top: 120px;
+    }
+    .center{
+        bottom: 135px;
+    }
+    .achievements-list__element{
+    margin-right: 20px
+    }
+}
+@media screen and (max-width: 992px){
+    .name{
+        top: 90px;
+    }
+    .header{
+        height: 75vh;
+    }
+
+    .center{
+    bottom: 115px;
+    }
+    .about-me__title {
+        font-size: 23px;
+    }
+    .about-me .right {
+        padding: 0 100px 0 0;
+    }
+    .about-me__description {
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+    .about-me__title{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .menu-element {
+        margin-right: 24px;
+        font-size: 13px;
+    }
+    .logo {
+        font-size: 19px;
+    }
+    .mypicture{
+        height: 400px;
+    }
+    .work-wrapper{
+        width: 380px;
+    }
+    .work-element.left:after {
+        right: -60px;
+    }
+    .work-element.left:before {
+        right: -38px;
+        bottom: 173px;
+    }
+    .work-element:before{
+        width: 38px;
+    }
+    .work-element.right:before {
+        left: -38px;
+        bottom: 35px;
+    }
+    .work-element.right:after {
+        left: -60px;
+    }
+
+
+}
+@media screen and (max-width: 768px){
+
+
+}
