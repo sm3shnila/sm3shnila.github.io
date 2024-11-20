@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="fuckccs/reset.css">
 	<link rel="stylesheet" type="text/css" href="fuckccs/style.css">
+	<link rel="stylesheet" type="text/css" href="fuckccs/media.css">
 	<title>Визитка к лучшей жизни!</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,7 +13,7 @@
 </head>
 <body>
 	<div class="header-top"> 
-       <a href="/" class="link logo">sm3shnila</a>
+       <a href="#home" class="link logo">sm3shnila</a>
         <nav class="navigation">
             <ul class="menu">
               <li class="menu-element">
@@ -55,17 +56,17 @@
 		</header>
 		<section class="about-me__center" id="about-me">
  		<div class="center">
-  	<img class=mypicture src="../images/iam.jpg" alt="Это Я">
+  	<img class=mypicture src="../images/iam.webp" alt="Это Я">
   	</div>
   	</section>
   	<section class="about-me" id="about-me">
 		<div class="left">
-			<img class="just-picture" src="../images/megusta.png" alt="?">
+			<img class="just-picture" src="../images/megusta.webp" alt="?">
 		</div>
 		<div class="right">
   		<h2 class="about-me__title">Чернов Станислав Николаевич</h2>
   		<p class="about-me__description">Я в самом начале своего пути, ведь это первый сайт который я написал.Я готов к трудностям и не страшусь их. Сейчас я Jun QA, но это
-  		ненадолго</p>
+  		ненадолго.</p>
   		<p class="about-me__description"> Сейчас я заканчиваю курс QA, ищу работу и улучшаюсь в своем новом деле.В будущем хочу создавать что нибудь. Ведь лишь создавая что-то можно оставить след после себя.</p>
   		<p class="about-me__description">В свободное время я учусь новым интересностям, провожу время с любимой женщиной, которая в будущем я уверен станет моей женой. Иногда я сочиняю стихи, и читаю книги. В будущем хочу освоить гитару. Кстати вот один из моих стихов:
 			</p>
@@ -81,59 +82,145 @@
 
   		<ul class="about-me__extra">
   			<li class="about-me__extra-element">
-  				<span class="bold">День Рождения:</span> 
-  				<span>08.07.2004 (20 лет)</span>
+  				<span class="about-me__icon birthday">
+  					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+  						<path stroke-linecap="round" stroke-linejoin="round" d="M12 8.25v-1.5m0 1.5c-1.355 0-2.697.056-4.024.166C6.845 8.51 6 9.473 6 10.608v2.513m6-4.871c1.355 0 2.697.056 4.024.166C17.155 8.51 18 9.473 18 10.608v2.513M15 8.25v-1.5m-6 1.5v-1.5m12 9.75-1.5.75a3.354 3.354 0 0 1-3 0 3.354 3.354 0 0 0-3 0 3.354 3.354 0 0 1-3 0 3.354 3.354 0 0 0-3 0 3.354 3.354 0 0 1-3 0L3 16.5m15-3.379a48.474 48.474 0 0 0-6-.371c-2.032 0-4.034.126-6 .371m12 0c.39.049.777.102 1.163.16 1.07.16 1.837 1.094 1.837 2.175v5.169c0 .621-.504 1.125-1.125 1.125H4.125A1.125 1.125 0 0 1 3 20.625v-5.17c0-1.08.768-2.014 1.837-2.174A47.78 47.78 0 0 1 6 13.12M12.265 3.11a.375.375 0 1 1-.53 0L12 		2.845l.265.265Zm-3 0a.375.375 0 1 1-.53 0L9 2.845l.265.265Zm6 0a.375.375 0 1 1-.53 0L15 2.845l.265.265Z" />
+						</svg>
+					</span>
+					<div class="about-me__extra-content"> 
+  					<span class="bold">День Рождения:</span> 
+  					<span>08.07.2004 (20 лет)</span>
+  				</div>
   			</li>
   			<li class="about-me__extra-element"> 
-  				<span class="bold">Где живу:</span>
-  				<span>Москва, Россия</span>
+  					<span class="about-me__icon location">
+  						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+  							<path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+  							<path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+							</svg>
+  					</span>
+  				<div class="about-me__extra-content">
+  					<span class="bold">Где живу:</span>
+  					<span>Москва, Россия</span>
+  				</div>
   			</li>
   			<li class="about-me__extra-element"> 
-  				<span class="bold">Образование:</span>
-  				<span>Северо-Кавказский Социальный Институт (СКСИ), Специальность: программист (ФИСТ)</span>
+  					<span class="about-me__icon education">
+  							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+  								<path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+								</svg>
+  					</span>
+  				<div class="about-me__extra-content">
+  					<span class="bold">Образование:</span>
+  					<span>Северо-Кавказский Социальный Институт (СКСИ), Специальность:&nbsp;программист (ФИСТ)</span>
+  				</div>
   			</li>
       	   </li>
   			<li class="about-me__extra-element"> 
-  				<span class="bold">Курсы:</span>
-  				<span>QA тестировщик (QA studio)</span>
+  					<span class="about-me__icon courses">
+  					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+  							<path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+							</svg>
+  					</span>
+  				<div class="about-me__extra-content">
+  					<span class="bold">Курсы:</span>
+  					<span>QA тестировщик (QA studio)</span>
+  				</div>
   			</li>
   		</ul>
 		</div>
 		</section>
-		<section class="achievements" id="achievements">
-		<h2 class="second-title">Достижения</h2>
+		<section class="achievements section-gray" id="achievements">
+		<h2 class="second-title">ДОСТИЖЕНИЯ</h2>
 
 		<ul class="achievements-list">
-		<li class="achievements-list__element">Достижение 1</li>
+			<li class="achievements-list__view">
+				<a href="../images/achievements/certificate.webp" class="achievements-list__element">
+					<img class="achievements-list__image"  src="../images/achievements/certificate.webp" alt="Тестировщик">
+				</a>
+				<a href="../images/achievements/certrus.webp" class="achievements-list__element">
+					<img class="achievements-list__image" src="../images/achievements/certrus.webp" alt="Тестировщик 2">
+				</a>
+			</li>
 		</ul>
 		</section>
 
 		<section class="work" id="work">
-			<h2 class="second-title">Работа</h2>
-
+			<h2 class="second-title">РАБОТА</h2>
 			<div class="work-wrapper">
-			<div class="work-element left">
-			<div class="work-element__content"></div>
+			<div class="work-element work-element__animation left">
+				<div class="work-element__content">
+						<p class="work-element__title bold">Официант/Гид в гастротеатре</p>
+						<p class="work-element__discription">Февраль 2023 - Декабрь 2024</p>
+						<p class="work-element__block-title bold">Навыки</p>
+					<ul class="work-element__skills">
+						<li class="work-element__skills-element">Комуникабельность</li>
+						<li class="work-element__skills-element">Стрессоустойчивость</li>
+						<li class="work-element__skills-element">Проактивность</li>
+						<li class="work-element__skills-element">Доброжелательность</li>
+						<li class="work-element__skills-element">Внимательность</li>
+					</ul>
+				</div>
 			</div>
-			<div class="work-element right">
-			<div class="work-element__content"></div>
+			<div class="work-element work-element__animation right">
+				<div class="work-element__content">
+					<p class="work-element__title bold">В поисках</p>
+					<p class="work-element__discription">Январь 2025 - ?</p>
+				</div>
 			</div>
 			</div>
 		</section>
 		<section class=interests id="interests">
-		 <h2 class="second-title">Интересы</h2>
+		 <h2 class="second-title">ИНТЕРЕСЫ</h2>
+			<div class="interests__list">
+				<div class="interest-wrapper">
+					<img src="../images/interests/music.webp" alt="" class="interest-image">
+					<p class="interest-title bold">МУЗЫКА</p>
+					<p class="interest-text">Я очень люблю музыку. Практически всегда слушаю что-нибудь пока куда-то иду.</p>
+					<p class="interest-text">Обычно слушаю все что зацепит, но зачастую это реп/хип-хоп. Про меня точно можно сказать ты-меломан. Не так давно открыл для себя Техно/Электронную музыку, и очень погрузился в нее. И сейчас большую часть времени слушаю именно Электронную музыку.</p>
+					<p class="interest-text">В будущем очень хочу освоить гитару, и создавать что-нибудь свое. Как на гитаре, так и что-нибудь на элетронщине. Буду петь про любовь.</p>
+				</div>
+				<div class="interest-wrapper">
+					<img src="../images/interests/kakoijelty.webp" alt="" class="interest-image">
+					<p class="interest-title bold">ФИЛЬМЫ</p>
+					<p class="interest-text">Мое еще одно увлечение, как и у многих - фильмы. Я посмотрел очень много произведений, и понял что для себя выделю такие жанры как фантастика/апокалипсис. Фильмы про апокалипсис - моя слабость. Такую сильную любовь к ним я стал проявлять после того как прошел игру "The Last Of Us" - очень крутая и местами трогательная игра.</p>
+					<p class="interest-text">А вообще я люблю простое, хорошее кино, к примеру "Зеленая Книга","Зеленая Миля" или в конце концов "Брат". Также люблю Марвел, но к сожалению или может быть счастью не сегодняшний Марвел, а тот что был до 2022 года.</p>
+					<p class="interest-text">И расскажу про мой любимый фильм, он называется "Бегущий по Лезвию 2049". Очень интересный, красивый и классно снятый фильм. Дэни Вильнев - красава, я очень ценю его фильмы и цвета в них. В общем про фильмы я всегда готов пообщаться, особенно если про что-то интересное.</p>
+				</div>
+				<div class="interest-wrapper">
+					<img src="../images/interests/favbook.webp" alt="" class="interest-image">
+					<p class="interest-title bold">КНИГИ</p>
+					<p class="interest-text">КНИГИ! Любовь к ним я стал проявлять когда перехал в Москву. В основном я читаю в метро, пока еду куда-нибудь, и если есть время то читаю дома.</p>
+					<p class="interest-text">Первыми моими книгами стали антиутопии "1984" и "451 градус по фарингейту", а потом я начал читать что посчитал интересным. Так в итоге я пришел к братья Стругацким, которые меня не разочаровали с их книгой "Пикник у обочины".</p>
+					<p class="interest-text">И в завершении расскажу про любимую книгу. Ею для меня стала "Зеленый Свет" - автобиография Мэтью Макконахи. Книга, как и жизнь человека про которую она рассказывает, вызвала во мне бурю неподдельных эмоций. Она вдохновила и поразила. Очень крутая книга, уверен, каждый оценит ее сполна! </p>
+				</div>
+				<div class="interest-wrapper">
+					<img src="../images/interests/krasivo.webp" alt="" class="interest-image">
+					<p class="interest-title bold">СПОРТ</p>
+					<p class="interest-text">Я очень люблю спорт. Сейчас правда я им занимаюсь реже - Зима ведь.</p>
+					<p class="interest-text">Я полностью отказался от курения и начал бегать, заниматься собой. Бегать на длинные дистанции это очень крутое занятие, которое не только делает тебя выносливее и сильнее, но и мысли в голове делает яснее и чище.В будущем, как немного стану на ноги, хочу заняться боксом.</p>
+					<p class="interest-text">У меня один раз спросили что если бы Ленин ожил и сказал всем заниматься своим любимым делом, каким бы занялся ты? Я сказал что боксом. </p>
+				</div>
+				<div class="interest-wrapper">
+					<img src="../images/interests/adventure.webp" alt="" class="interest-image">
+					<p class="interest-title bold">ПУТЕШЕСТВИЯ</p>
+					<p class="interest-text">И в завершении я очень люблю поездки/путешествия, очень мне нравится атмосфера поездок, а особенно с любимыми людьми. </p>
+					<p class="interest-text">Я не был за границей, но я обязательно слетаю туда, ведь мне интересно как живут люди в других странах, и как вообще мы отличаемся друг от друга в зависимости от страны в которой живем.</p>
+					<p class="interest-text">В общем ценю то что имею, и вы цените то что имеете, и не бойтесь мечтать.</p>
+				</div>
+			</div>
 		</section>
 		<section class="contact-me" id="contact-me">
-			<h2 class="second-title">Обратная связь</h2>
+			<h2 class="second-title">СВЯЗЬ</h2>
 		</section>
 
 		<footer>    
 			<ul class="socials">
-				<li class="social-ellement">
-					<a href="" class="link social-element__link">TG</a>
+				<li class="social-element">
+					<a href="https://t.me/sm3shnila" target="_blank" class="link social-element__link">TG</a>
 				</li>
-				<li class="social-ellement">
-					<a href="" class="link social-element__link">INST</a>
+				<li class="social-element">
+					<a href="https://www.instagram.com/staschernov_/" target="_blank" class="link social-element__link">INST</a>
 				</li>
 			</ul>
 			<p class="footer-about">
