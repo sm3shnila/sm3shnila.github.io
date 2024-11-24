@@ -18,6 +18,14 @@
     .center{
         bottom: 100px;
     }
+    .achievements:before,
+    .achievements:after{
+        content: "";
+        position: relative;
+        border: 40px solid transparent;
+        border-left-width: 87vh;
+        border-right-width: 87vh;
+    }
 }
 @media screen and (max-width: 1205px) {
     .interest-text{
