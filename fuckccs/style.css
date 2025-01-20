@@ -429,8 +429,8 @@ p.about-me__description.stih{
 	font-size: 17px;
 	margin-bottom: 15px;
 }
-.interest-text:last-of-type{
-
+.work-element__skills-element:last-of-type{
+	margin-left: 30px;
 }
 .img{
 	overflow-clip-margin: content-box;
