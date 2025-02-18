@@ -391,6 +391,7 @@ p.about-me__description.stih{
 	padding: 5px;
 	border-radius: 15px;
 	margin: 2px;
+	margin-left: 11px;
 }
 
 .interests{
@@ -429,9 +430,7 @@ p.about-me__description.stih{
 	font-size: 17px;
 	margin-bottom: 15px;
 }
-.work-element__skills-element:last-of-type{
-	margin-left: 50px;
-}
+
 .img{
 	overflow-clip-margin: content-box;
 	overflow: clip;
