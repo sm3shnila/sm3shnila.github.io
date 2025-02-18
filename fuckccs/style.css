@@ -120,7 +120,7 @@ a.link:hover{
 	margin-right: 35px;
 }
 .menu-element:last-child {
-	margin-right: 0;
+	margin-right: 10px;
 }
 .menu-element a.link.active, .menu-element a.link:hover{
 	color:whitesmoke; 
@@ -201,7 +201,6 @@ p.about-me__description.stih{
 .second-title {
 	text-align: center;
     font-size: 27px;
-
 }
 .section-gray{
 	background: rgba(210, 210, 210, .6);
@@ -209,53 +208,27 @@ p.about-me__description.stih{
 	position: relative;
 	align-items: center;
 }
-.achievements-list{
-	display: flex;
-	overflow: hidden;
-	width: 45%;
-	position: relative;
-	top: 40px;
-}
-.achievements-list__element{
-	flex: 1 1 50%;
-	display: flex;
-	justify-content: center;
-}
-.achievements-list__image{
-	width: 100%;
-	max-width: 250px;
-
-}
-.achievements-list__view{
-	flex: 1 1 100%;
-	display: flex;
-	justify-content: space-between;
-	min-width: 100%;
-}
-.achievements{
-	padding: 0 0 50px;
-	display: flex;
-	flex-direction: column;
-	max-width: 100%;
-}
-.achievements:before,
-.achievements:after{
+.work:before,
+.work:after{
 	content: "";
 	position: relative;
 	border: 40px solid transparent;
 	border-left-width: 87vh;
 	border-right-width: 87vh;
 }
-
-.achievements:before{
+.work:before{
 	border-top: 30px solid #ffffff;
 	top: 0;
 }
-.achievements:after{
+.work:after{
 	border-top: 30px solid rgba(210, 210, 210, .6);
 	bottom: -120px;
 }
 .work{
+	padding: 0 0 50px;
+	display: flex;
+	flex-direction: column;
+	max-width: 100%;
 	text-align: center;
 	position: relative;
 	margin-bottom: 140px;
@@ -309,6 +282,7 @@ p.about-me__description.stih{
 	box-shadow: 0 0 10px rgb(0 0 0 / 0.3);
 	margin: 0 -195px;
 	border-radius: 25px;
+	background: #ebeaea;
 }
 .work-element:before{
 	content: "";
@@ -387,13 +361,12 @@ p.about-me__description.stih{
 	flex-wrap: wrap;
 }
 .work-element__skills-element{
-	background: #e7e7e7;
+	background: #c8c8c8;
 	padding: 5px;
 	border-radius: 15px;
 	margin: 2px;
 	margin-left: 11px;
 }
-
 .interests{
 	padding: 40px 30px;
 }
